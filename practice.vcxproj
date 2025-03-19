@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>Default</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,6 +132,13 @@
     <ClCompile Include="Day1.c" />
     <ClCompile Include="Day10.c" />
     <ClCompile Include="Day11.c" />
+    <ClCompile Include="Day12.c" />
+    <ClCompile Include="Day13.c" />
+    <ClCompile Include="Day14.c" />
+    <ClCompile Include="Day15.c" />
+    <ClCompile Include="Day16.c" />
+    <ClCompile Include="Day17.c" />
+    <ClCompile Include="game_board.c" />
     <ClCompile Include="Day2.c" />
     <ClCompile Include="Day3.c" />
     <ClCompile Include="Day4.c" />
@@ -139,10 +147,15 @@
     <ClCompile Include="Day7.c" />
     <ClCompile Include="Day8.c" />
     <ClCompile Include="Day9.c" />
+    <ClCompile Include="game_board_test.c" />
+    <ClCompile Include="game_MineSweeper.c" />
+    <ClCompile Include="game_MineSweeper_test.c" />
     <ClCompile Include="work.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="add.h" />
+    <ClInclude Include="game_board.h" />
+    <ClInclude Include="game_MineSweeper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

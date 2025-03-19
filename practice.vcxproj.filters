@@ -54,9 +54,45 @@
     <ClCompile Include="add.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Day12.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Day13.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_board.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_board_test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_MineSweeper.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_MineSweeper_test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Day14.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Day15.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Day16.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Day17.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_board.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_MineSweeper.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
