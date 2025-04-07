@@ -60,34 +60,37 @@
 //	printf("pc = %p\n", pc);
 //	printf("pc + 1 = %p\n", pc + 1);//pc + 1 跳过1个字节
 //
+// 那int和float都是4个字节，是不是可以通用?
+// ->不是 它们在内存中的存储不一样
+// 
 //	//结论2：
 //	//指针类型决定了指针运算时按照类型长度跳过的字节数
 //
 //	return 0;
 //}
 
-#include <stdio.h>
-#include <math.h>
-#include <errno.h>
-
-int main() {
-    double num = 16.0;
-    errno = 0; // 重置错误标志
-    double result = sqrt(num);
-
-    if (errno == EDOM) {
-        perror("sqrt error");
-    }
-    else {
-        printf("平方根是：%f\n", result); // 输出：4.000000
-    }
-
-    // 处理负数的情况
-    num = -1.0;
-    result = sqrt(num);
-    if (isnan(result)) {
-        printf("无效输入：负数无法开平方\n");
-    }
-
-    return 0;
-}
+//#include <stdio.h>
+//#include <math.h>
+//#include <errno.h>
+//
+//int main() {
+//    double num = 16.0;
+//    errno = 0; // 重置错误标志
+//    double result = sqrt(num);
+//
+//    if (errno == EDOM) {
+//        perror("sqrt error");
+//    }
+//    else {
+//        printf("平方根是：%f\n", result); // 输出：4.000000
+//    }
+//
+//    // 处理负数的情况
+//    num = -1.0;
+//    result = sqrt(num);
+//    if (isnan(result)) {
+//        printf("无效输入：负数无法开平方\n");
+//    }
+//
+//    return 0;
+//}

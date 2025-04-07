@@ -138,6 +138,7 @@
     <ClCompile Include="Day15.c" />
     <ClCompile Include="Day16.c" />
     <ClCompile Include="Day17.c" />
+    <ClCompile Include="Day18.c" />
     <ClCompile Include="game_board.c" />
     <ClCompile Include="Day2.c" />
     <ClCompile Include="Day3.c" />

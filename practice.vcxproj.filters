@@ -84,6 +84,9 @@
     <ClCompile Include="Day17.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Day18.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="add.h">
